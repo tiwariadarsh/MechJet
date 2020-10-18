@@ -1,10 +1,25 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>mechjet</title>
 </head>
 <body>
+
+	<div class="preload">
+	<div class="logo">
+		Welcome To MechJet
+	</div>
+</div>
+ <script>
+ 	const preload = document.querySelector('.preload');
+ 	document.addEventListener('DOMContentLoaded', (e)=>{
+ 		setTimeout(()=>{
+ 			preload.classList.add('display-none');
+ 		}, 1000);
+ 	})
+ </script>
+
 <div class="grid-container">
 	<header class="header">
 		<div class="brand">
